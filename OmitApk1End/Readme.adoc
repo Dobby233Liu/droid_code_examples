@@ -1,0 +1,5 @@
+== OmitApk1End
+
+It will let files with ".apk.1" suffix converted to installable ".apk" file +
+
+It made a temp file called "temp.apk" into "/sdcard/" path, so delete it if you don't wanna leave it alone.
