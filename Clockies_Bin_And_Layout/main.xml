@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:background="#000000"
+	android:id="@+id/mainRelativeLayout1">
+
+	<AnalogClock
+		android:layout_height="wrap_content"
+		android:layout_width="194dp"
+		android:id="@+id/mainAnalogClock1"/>
+
+	<TextClock
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/mainAnalogClock1"
+		android:textSize="42sp"
+		android:gravity="center"
+		android:id="@+id/mainTextClock1"/>
+
+	<DigitalClock
+		android:layout_height="wrap_content"
+		android:layout_width="194dp"
+		android:layout_below="@id/mainTextClock1"
+		android:gravity="center"
+		android:id="@+id/mainDigitalClock1"/>
+
+</RelativeLayout>
+
