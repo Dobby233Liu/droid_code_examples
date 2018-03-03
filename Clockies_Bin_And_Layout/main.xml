@@ -5,8 +5,10 @@
 	android:layout_width="match_parent"
 	android:layout_gravity="center"
 	android:gravity="center"
+	android:fitsSystemWindows="true"
 	android:background="#000000"
-	android:id="@+id/mainRelativeLayout1">
+	android:id="@+id/mainRelativeLayout1"
+	android:clipToPadding="true">
 
 	<AnalogClock
 		android:layout_height="wrap_content"
